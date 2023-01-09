@@ -1,0 +1,31 @@
+* {
+   border: 3px solid red;
+}
+
+header {
+    background-color: rgb(49 52 61);
+    color:#92cccd;
+}
+
+header h1 {
+    display: inline-flex;
+    background-color: #92cccd;
+    color: rgb(49 52 61);
+    padding: 5px 5px 5px 50px;
+    margin: 5px 0;
+}
+
+nav {
+    float: right;
+    padding: 5px 5px 0;
+
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 25px;
+}
+
+.recent-avatar {
+    background-image: ;
+}
