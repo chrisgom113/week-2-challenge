@@ -26,6 +26,8 @@ N/A
 
 User shall be taken to the deployed webpage once using the link listed below:
 
+https://chrisgom113.github.io/week-2-challenge/
+
 The following is a screenshot of the webpage:
 ![Screenshot](./assets/Screenshot%20at%20Jan%2009%2023-04-58.png)
 
