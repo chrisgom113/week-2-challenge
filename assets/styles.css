@@ -66,6 +66,7 @@ article {
     background-blend-mode: soft-light;
     background-size: cover;
     background-repeat: no-repeat;
+    margin-bottom: 25px;
 }
 
 
@@ -75,10 +76,15 @@ div {
     margin-left: 250px;
 }
 
+div h4 {
+    border: ;
+
+}
+
 card {
     padding: 50px;
     display: flex;
-   margin-left: 80px;
+    margin-left: 80px;
 
 }
 
@@ -89,16 +95,28 @@ article h4 {
     color: rgb(22, 42, 79);
     font-size: 40px;
     padding-top: 20px;
+    text-align: center;
 
 
+}
+
+h5 {
+    margin: 25px;
+    margin-left: 50px;
+    font-weight: lighter;
 }
 
 a {
     text-decoration: none;
 }
 
-
-
+h4 a {
+    border: 5px solid #92cccd;
+    text-decoration: none;
+    background-color: #92cccd;
+    color: rgb(22, 42, 79);
+    border-radius: 25px;
+}
 
 
 .recent-avatar {
@@ -133,6 +151,8 @@ a {
     height: 100px;
     padding: 10px;
     display: flex;
+    flex-wrap: wrap;
+    margin-top: 200px;
 }
 
 .about-me h1 {
@@ -142,37 +162,76 @@ a {
     display: flex;
     flex-wrap: wrap;
     font-size: 2em;
-    ;
     text-align: right;
     font-weight: lighter;
     border-right: 10px solid #92cccd;
 }
 
 .projects h1 {
+    height: 400px;
     padding-left: 50px;
     padding-top: 0;
     padding-right: 10px;
     display: flex;
     flex-wrap: wrap;
     font-size: 2em;
-    ;
     text-align: right;
     font-weight: lighter;
-    min-width: ;
     border-right: 10px solid #92cccd;
 
 
 }
 
 .contact h1 {
-    padding-left: 50px;
+    padding-left: 0px;
     padding-top: 0;
     padding-right: 10px;
     display: flex;
     flex-wrap: wrap;
     font-size: 2em;
-    ;
     text-align: right;
     font-weight: lighter;
     border-right: 10px solid #92cccd;
+}
+
+.second-project {
+    height: 200px;
+    background-image: url(Screenshot\ at\ Jan\ 09\ 20-16-18.png);
+    background-size: contain;
+    margin-left: 15px;
+    margin-right: 75px;
+    width: 300px;
+    text-align: center;
+    color: rgb(0, 0, 5);
+    border-radius: 25px;
+    font-size: 28px;
+
+
+}
+
+.third-project {
+    background-image: url(images.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 15px;
+    margin-right: 75px;
+    width: 300px;
+    text-align: center;
+    border-radius: 25px;
+    font-size: 28px;
+    color: rgb(1, 1, 14);
+
+}
+
+.fourth-project {
+    background-image: url(download.jpeg);
+    background-size: cover;
+
+    margin-left: 15px;
+    width: 300px;
+    text-align: center;
+    border-radius: 25px;
+    font-size: 28px;
+    color: rgb(1, 1, 7);
+
 }
