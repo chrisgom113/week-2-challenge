@@ -27,7 +27,7 @@ N/A
 User shall be taken to the deployed webpage once using the link listed below:
 
 The following is a screenshot of the webpage:
-![Quick View](./assets/Screenshot at Jan 09 23-04-58.png)
+![Screenshot](./assets/Screenshot%20at%20Jan%2009%2023-04-58.png)
 
 ## Credits
 
