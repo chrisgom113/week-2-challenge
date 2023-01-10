@@ -1,10 +1,11 @@
 * {
-   border: 3px solid red;
+    /* border: 3px solid red; */
 }
 
 header {
-    background-color: rgb(49 52 61);
-    color:#92cccd;
+    background-color: rgb(22, 42, 79);
+    color: #92cccd;
+    margin-bottom: 50px;
 }
 
 header h1 {
@@ -13,6 +14,7 @@ header h1 {
     color: rgb(49 52 61);
     padding: 5px 5px 5px 50px;
     margin: 5px 0;
+    
 }
 
 nav {
@@ -26,6 +28,121 @@ nav li {
     margin-right: 25px;
 }
 
+body {
+    background-color: rgb(22, 42, 79);
+    color: #92cccd;
+}
+
+
+p {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+    padding-top: 0;
+}
+
+article {
+    margin-left: 80px;
+    width: 70%;
+    background-image: url(./Screenshot\ at\ Jan\ 09\ 17-31-58.png);
+    background-blend-mode: soft-light;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+div {
+display:flex ;
+flex-wrap: wrap;
+margin-left: 250px;
+}
+
+card {
+    padding: 50px;
+    display: flex;
+
+}
+
+h4 {
+    background-color: #92cccd;
+    display: flex;
+    margin-bottom:0;
+    color:rgb(22, 42, 79);
+    font-size: 50px;
+   
+
+}
+
+
 .recent-avatar {
-    background-image: ;
+    background-image: url("./meandkitty.jpeg");
+    height: 175px;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-position-y: -97px;
+    background-blend-mode: overlay;
+    margin-bottom: 25px;
+
+}
+
+.about-me {
+    height: 150px;
+    padding: 10px;
+    display: flex;
+    
+
+}
+
+.projects {
+    height: 450px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+ 
+
+}
+
+.contact {
+    height: 100px;
+    padding: 10px;
+    display: flex;
+}
+
+.about-me h1 {
+    padding-left: 50px;
+     padding-top: 0; 
+     padding-right: 10px;
+     display: flex;
+     flex-wrap: wrap;
+     font-size: 2em;;
+     text-align: right;
+     font-weight: lighter;
+     border-right: 10px solid #92cccd;
+ }
+
+.projects h1 {
+    padding-left: 50px;
+    padding-top: 0; 
+    padding-right: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 2em;;
+    text-align: right;
+    font-weight: lighter;
+       min-width: ;
+       border-right: 10px solid #92cccd;
+
+    
+}
+
+.contact h1 {
+    padding-left: 50px;
+    padding-top: 0; 
+    padding-right: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 2em;;
+    text-align: right;
+    font-weight: lighter;
+    border-right: 10px solid #92cccd;
 }
