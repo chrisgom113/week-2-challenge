@@ -12,20 +12,37 @@ header h1 {
     display: inline-flex;
     background-color: #92cccd;
     color: rgb(49 52 61);
-    padding: 5px 5px 5px 50px;
-    margin: 5px 0;
-    
+    padding: 31px 57px 22px 78px;
+    margin: 20px 0;
+    font-size: 3em;
+
+
 }
+
+h2 {
+    float: right bottom;
+    display: flex;
+    text-justify: right;
+}
+
 
 nav {
     float: right;
-    padding: 5px 5px 0;
-
+    padding: 27px 36px 0;
+    margin-top: 37px;
 }
 
 nav li {
     display: inline-block;
-    margin-right: 25px;
+    margin-right: 60px;
+    list-style: none;
+    font-size: 1.5em;
+}
+
+nav a {
+    text-underline-offset: 10px;
+    color: #92cccd;
+
 }
 
 body {
@@ -39,6 +56,7 @@ p {
     flex-wrap: wrap;
     padding: 50px;
     padding-top: 0;
+
 }
 
 article {
@@ -52,35 +70,44 @@ article {
 
 
 div {
-display:flex ;
-flex-wrap: wrap;
-margin-left: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 250px;
 }
 
 card {
     padding: 50px;
     display: flex;
+   margin-left: 80px;
 
 }
 
-h4 {
+article h4 {
     background-color: #92cccd;
     display: flex;
-    margin-bottom:0;
-    color:rgb(22, 42, 79);
-    font-size: 50px;
-   
+    margin: 0;
+    color: rgb(22, 42, 79);
+    font-size: 40px;
+    padding-top: 20px;
+
 
 }
+
+a {
+    text-decoration: none;
+}
+
+
+
 
 
 .recent-avatar {
-    background-image: url("./meandkitty.jpeg");
-    height: 175px;
+    background-image: linear-gradient(to right, rgb(22, 42, 79), white), url("./meandkitty.jpeg");
+    object-fit: fill;
+    height: 250px;
     background-repeat: no-repeat;
     background-position: center top;
-    background-position-y: -97px;
-    background-blend-mode: overlay;
+    background-blend-mode: hard-light;
     margin-bottom: 25px;
 
 }
@@ -89,7 +116,7 @@ h4 {
     height: 150px;
     padding: 10px;
     display: flex;
-    
+
 
 }
 
@@ -98,7 +125,7 @@ h4 {
     padding: 10px;
     display: flex;
     flex-wrap: wrap;
- 
+
 
 }
 
@@ -110,38 +137,41 @@ h4 {
 
 .about-me h1 {
     padding-left: 50px;
-     padding-top: 0; 
-     padding-right: 10px;
-     display: flex;
-     flex-wrap: wrap;
-     font-size: 2em;;
-     text-align: right;
-     font-weight: lighter;
-     border-right: 10px solid #92cccd;
- }
-
-.projects h1 {
-    padding-left: 50px;
-    padding-top: 0; 
+    padding-top: 0;
     padding-right: 10px;
     display: flex;
     flex-wrap: wrap;
-    font-size: 2em;;
+    font-size: 2em;
+    ;
     text-align: right;
     font-weight: lighter;
-       min-width: ;
-       border-right: 10px solid #92cccd;
+    border-right: 10px solid #92cccd;
+}
 
-    
+.projects h1 {
+    padding-left: 50px;
+    padding-top: 0;
+    padding-right: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 2em;
+    ;
+    text-align: right;
+    font-weight: lighter;
+    min-width: ;
+    border-right: 10px solid #92cccd;
+
+
 }
 
 .contact h1 {
     padding-left: 50px;
-    padding-top: 0; 
+    padding-top: 0;
     padding-right: 10px;
     display: flex;
     flex-wrap: wrap;
-    font-size: 2em;;
+    font-size: 2em;
+    ;
     text-align: right;
     font-weight: lighter;
     border-right: 10px solid #92cccd;
