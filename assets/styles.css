@@ -1,6 +1,8 @@
 * {
-    /* border: 3px solid red; */
+
 }
+
+/* ELEMENT SELECTORS */
 
 header {
     background-color: rgb(22, 42, 79);
@@ -48,6 +50,7 @@ nav a {
 body {
     background-color: rgb(22, 42, 79);
     color: #92cccd;
+    flex-wrap: wrap;
 }
 
 
@@ -56,6 +59,7 @@ p {
     flex-wrap: wrap;
     padding: 50px;
     padding-top: 0;
+    line-height: 2;
 
 }
 
@@ -67,6 +71,7 @@ article {
     background-size: cover;
     background-repeat: no-repeat;
     margin-bottom: 25px;
+    flex-wrap: wrap;
 }
 
 
@@ -76,21 +81,12 @@ div {
     margin-left: 250px;
 }
 
-div h4 {
-    border: ;
 
-}
-
-card {
-    padding: 50px;
-    display: flex;
-    margin-left: 80px;
-
-}
 
 article h4 {
     background-color: #92cccd;
     display: flex;
+    flex-wrap: wrap;
     margin: 0;
     color: rgb(22, 42, 79);
     font-size: 40px;
@@ -119,10 +115,22 @@ h4 a {
 }
 
 
+article:hover {
+    opacity: .5;
+}
+
+h5:hover {
+    font-size: larger;
+    text-decoration:underline;
+}
+
+
+/* BEGIN CLASS SELECTORS */
+
 .recent-avatar {
     background-image: linear-gradient(to right, rgb(22, 42, 79), white), url("./meandkitty.jpeg");
     object-fit: fill;
-    height: 250px;
+    height: 350px;
     background-repeat: no-repeat;
     background-position: center top;
     background-blend-mode: hard-light;
@@ -131,24 +139,30 @@ h4 a {
 }
 
 .about-me {
+    margin-top: 70px;
     height: 150px;
     padding: 10px;
     display: flex;
+    flex-direction: row;
 
 
 }
 
 .projects {
+    margin-top: 70px;
     height: 450px;
     padding: 10px;
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
 
 
 }
 
+
+
 .contact {
-    height: 100px;
+    height: 250px;
     padding: 10px;
     display: flex;
     flex-wrap: wrap;
@@ -158,8 +172,9 @@ h4 a {
 .about-me h1 {
     padding-left: 50px;
     padding-top: 0;
-    padding-right: 10px;
+    padding-right: 20px;
     display: flex;
+  
     flex-wrap: wrap;
     font-size: 2em;
     text-align: right;
@@ -171,7 +186,7 @@ h4 a {
     height: 400px;
     padding-left: 50px;
     padding-top: 0;
-    padding-right: 10px;
+    padding-right: 15px;
     display: flex;
     flex-wrap: wrap;
     font-size: 2em;
@@ -183,7 +198,8 @@ h4 a {
 }
 
 .contact h1 {
-    padding-left: 0px;
+    height: 150px;
+    padding-left: 0;
     padding-top: 0;
     padding-right: 10px;
     display: flex;
@@ -205,8 +221,13 @@ h4 a {
     color: rgb(0, 0, 5);
     border-radius: 25px;
     font-size: 28px;
+    flex-wrap: wrap;
 
 
+}
+
+.second-project:hover {
+    opacity: .5;
 }
 
 .third-project {
@@ -220,7 +241,12 @@ h4 a {
     border-radius: 25px;
     font-size: 28px;
     color: rgb(1, 1, 14);
+    flex-wrap: wrap;
 
+}
+
+.third-project:hover {
+    opacity: .5;
 }
 
 .fourth-project {
@@ -233,5 +259,27 @@ h4 a {
     border-radius: 25px;
     font-size: 28px;
     color: rgb(1, 1, 7);
+    flex-wrap: wrap;
+}
+
+.fourth-project:hover {
+    opacity: .5;
+}
+    /* flex-direction to stack  */
+
+
+@media screen and (max-width: 768px) {
+   
+    header,
+    nav,
+    main,
+    section,
+    .projects,
+    article,
+    div,
+     {
+      flex-direction: column;
+    }
+
 
 }
